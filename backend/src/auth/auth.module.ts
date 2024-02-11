@@ -7,7 +7,6 @@ import { JwtModule } from '@nestjs/jwt';
 import { LocalStrategy } from './strategies/local.strategy';
 import { JwtStrategy } from './strategies/jwt.strategy';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-// import { jwtConstants } from 'src/utils/constants';
 
 @Module({
   imports: [
