@@ -1,4 +1,4 @@
-version: '3.9'
+version: "3.9"
 
 services:
   backend:
@@ -9,7 +9,8 @@ services:
     image: backend-dev
     ports:
       - 4000:3000
-    env_file: .env
+    env_file:
+      - .env
     networks:
       - backend
     depends_on:
