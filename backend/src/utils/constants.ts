@@ -1,5 +1,5 @@
 export const saltOrRounds = 10;
 
-export const jwtConstants = {
-  secret: 'secretKey',
-};
+// export const jwtConstants = {
+//   secret: 'secretKey',
+// };
